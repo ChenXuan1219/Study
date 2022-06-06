@@ -36,5 +36,16 @@ object test1 {
     println(flatList2)
 
 
+    //4.分组
+    val groupMap : Map[String,List[Int]] = list.groupBy(data => {
+      if(data % 2 == 0) "偶数" else "奇数"
+    }
+    )
+    println(groupMap)
+
+
+    val wordList = List("aa","bb","cc","dd","ab")
+    println(wordList.groupBy(_ . charAt(0)))
+
   }
 }
