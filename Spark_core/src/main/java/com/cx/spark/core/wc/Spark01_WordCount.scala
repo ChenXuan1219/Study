@@ -50,5 +50,4 @@ object Spark01_WordCount {
     //TODO 关闭连接
     sparkContext.stop()
   }
-
 }
