@@ -7,22 +7,30 @@ package com.cx.Test10
  * @version 1.0.0
  * @since 2022/06/06 16:37
  */
+//https://blog.csdn.net/qq_26442553/article/details/108359365
 
 
 object test1 {
   def main(args : Array[String]): Unit ={
 
-    //1.过滤
-    val list = List(0,1,2,3)
+    //1.过滤 filter
+    val list:List[Int] = List(0,1,2,3)
     val evenList = list.filter(_ % 2 == 0)
-
+    val stringList:List[String] = List("Hadoop","Spark")
     println(evenList)
     println("======")
     //2.每一个元素做操作
-    //把集合中每个元素乘2
+    //把集合中每个元素乘
     println(list.map(_ * 2))
     println(list.map(x => x * x))
     println("====")
+
+    //2.flatmap
+    val chars: List[Char] = stringList.flatMap(s => s + 'c')
+
+
+
+
 
     //3.扁平化
     val nestedList:List[List[Int]] = List(List(1,2,3),List(4,5),List(6,7,8,9))

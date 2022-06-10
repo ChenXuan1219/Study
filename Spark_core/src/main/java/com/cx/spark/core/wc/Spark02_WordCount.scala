@@ -37,7 +37,6 @@ object Spark02_WordCount {
     //3.根据单词分组(a,a,a) (b,b,b,b)
     val wordGroup: RDD[(String, Iterable[(String, Int)])] = wordToOne.groupBy(t => t._1)
 
-
     //4.对分组后的数据转化(a,3),(b,4)
     val wordToCount = wordGroup.map {
       case  (word,list) => {
