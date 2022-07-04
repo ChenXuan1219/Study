@@ -1,4 +1,4 @@
-package Test5
+package com.cx.Test5
 
 object Test03_FunctionParameter {
   def main(args: Array[String]): Unit = {

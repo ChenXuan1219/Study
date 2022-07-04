@@ -1,4 +1,4 @@
-package Test5
+package com.cx.Test4
 
 object Test04_Simplify {
   def main(args: Array[String]): Unit = {
@@ -62,7 +62,9 @@ object Test04_Simplify {
 //    9.如果不关心名称,只关心逻辑处理,那么函数名def可以省略
 
     //匿名函数,lambda表达式
-    (name : String) => {println(name)}
+    (name : String) => println
+
+
 
   }
 }
