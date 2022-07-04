@@ -28,7 +28,7 @@ object Spark01_WordCount {
 
     //TODO 执行业务操作
     //1.读取文件，获取一行一行的数据
-      val lines: RDD[String] = sparkContext.textFile("/Users/chenxuan/IdeaProjects/Study/Spark_core/src/main/data/")
+      val lines: RDD[String] = sparkContext.textFile("Spark_core/src/main/data")
 
     //2.将数据拆分，形成当个单词(扁平化操作)
     val words: RDD[String] = lines.flatMap(_.split(" "))
