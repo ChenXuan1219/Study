@@ -1,6 +1,6 @@
 package com.cx.spark.core.temporary
 
-import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.spark.{HashPartitioner, SparkConf, SparkContext}
 /**
  * TODO
  *
@@ -12,14 +12,22 @@ import org.apache.spark.{SparkConf, SparkContext}
 /**
  * 将同一个分区的数据直接转化为相同类型的内存数据进行处理。分区不变
  */
-object Spark07_RDD_Operator_Transform_filter {
+object Spark11_RDD_Operator_Transform_partitionBy {
   def main(args: Array[String]): Unit = {
 
     val sc = new SparkContext(new SparkConf().setMaster("local[*]").setAppName("Operator"))
 
     /**
-     *   TODO算子 - filter
+     *   TODO算子 - key-value类型
+     *
+     *    重分区
      */
+
+
+    val rdd = sc.makeRDD(List(1,2,3,4))
+
+    rdd.map((_,1)).partitionBy(new HashPartitioner(2)).collect().foreach(println)
+
 
     sc.stop()
 

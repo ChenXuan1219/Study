@@ -1,29 +1,23 @@
 package com.cx.spark.core.temporary
 
+import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
+
 /**
  * TODO
  *
  * @author chenxuan
  * @version 1.0.0
- * @since 2022/07/04 15:05
+ * @since 2022/07/05 11:32
  */
-
-/**
- * 将同一个分区的数据直接转化为相同类型的内存数据进行处理。分区不变
- */
-object Spark07_RDD_Operator_Transform_filter {
+object Test {
   def main(args: Array[String]): Unit = {
 
+    //map(x => (x, null)).reduceByKey((x, _) => x, numPartitions).map(_._1)
     val sc = new SparkContext(new SparkConf().setMaster("local[*]").setAppName("Operator"))
 
-    /**
-     *   TODO算子 - filter
-     */
 
     sc.stop()
 
-
   }
-
 }
