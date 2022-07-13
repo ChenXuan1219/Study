@@ -1,4 +1,4 @@
-package com.cx.Test4
+package com.cx.Test5
 
 object Test04_Simplify {
   def main(args: Array[String]): Unit = {
