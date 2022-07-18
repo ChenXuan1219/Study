@@ -27,7 +27,7 @@ object Spark01_RDD_Persist {
      * 放在JVM堆内存中，需要触发action后，rdd才会被缓存在计算节点内存中
      * 如果需要保存到磁盘中，需要更改存储级别(StorageLevel.DISK_ONLY)
      */
-    rdd.cache()
+    //rdd.cache()
     rdd.persist(StorageLevel.DISK_ONLY)
 
     rdd.reduceByKey(_ + _).collect().foreach(println)

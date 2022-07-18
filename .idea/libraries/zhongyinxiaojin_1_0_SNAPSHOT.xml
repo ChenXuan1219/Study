@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="zhongyinxiaojin-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Spark_core/src/main/scala/com/cx/spark/core/rdd/acc/zhongyinxiaojin-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../scala-2.13.8" />
+    </SOURCES>
+  </library>
+</component>
