@@ -23,15 +23,25 @@ object Spark13_RDD_Operator_Transform_reduceByKey {
      *    相同的key的数据进行value数据的聚合操作
      */
 
-    val rdd = sc.makeRDD(List(("a",2),("b",1),("c",1),("d",1),("a",3),("b",1),("c",1),("d",1)),2)
+    val rdd = sc.makeRDD(List(
+      ("a",2),
+      ("b",1),
+      ("c",1),
+      ("d",1),
+      ("a",3),
+      ("b",1),
+      ("c",1),
+      ("d",1)),2)
+
+    //rdd.saveAsTextFile("Spark_core/src/main/scala/com/cx/spark/core/rdd/operator/transform/data1")
+    //rdd.reduceByKey(_ + _).saveAsTextFile("Spark_core/src/main/scala/com/cx/spark/core/rdd/operator/transform/data2")
+
+   println("_________")
 
     //sc.makeRDD(List(("a","a"),("b","b"),("c","c"),("d","d"),("a","a"),("b","b"),("c","c"),("d","d")),2).saveAsTextFile("o1")
-    rdd.reduceByKey((x:Int,y:Int) => {
-      x + y
-    }
-    ).collect().foreach(println)
+    //rdd.reduceByKey((x:Int,y:Int) => {x + y}).collect().foreach(println)
 
- 
+
     sc.stop()
 
 

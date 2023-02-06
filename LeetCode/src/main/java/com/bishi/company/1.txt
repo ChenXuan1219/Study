@@ -1,0 +1,38 @@
+
+8 = 4 * 2
+8 >= 2 * 4>= 6
+ 假设a=b*c。其中b，c>=2。则a>=2*max{b,c}>=a+b。
+
+ 由此可见a因数分解后的和比a小
+
+   unsigned int sum = 0;
+     unsigned int div_idx = 2;
+     unsigned int sqrt_n=sqrt(n);
+
+     while (1)
+     {
+         if (div_idx > sqrt_n)
+             break;
+         if (n % div_idx ==0)
+         {
+             sum += div_idx;
+             n /= div_idx;
+             sqrt_n = sqrt(n);
+         }
+         else
+             div_idx++;
+     }
+     return sum+n;
+
+
+if(x - 1 == 0){
+return 1
+}
+
+x =
+
+     x
+       x
+     a  b
+    c d
+

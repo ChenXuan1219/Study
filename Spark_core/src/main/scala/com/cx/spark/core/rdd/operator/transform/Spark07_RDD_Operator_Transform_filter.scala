@@ -20,6 +20,7 @@ object Spark07_RDD_Operator_Transform_filter {
     /**
      *   TODO算子 - filter
      */
+     sc.makeRDD(List(1,2,3,4)).filter(_ != 1).collect().foreach(println)
 
     sc.stop()
 

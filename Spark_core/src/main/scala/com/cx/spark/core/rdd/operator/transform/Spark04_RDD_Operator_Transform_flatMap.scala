@@ -17,11 +17,13 @@ object Spark04_RDD_Operator_Transform_flatMap {
 
     val rdd = sc.makeRDD(List(List(1, 2), 5 ,List(3, 4)))
 
+
+
     val rdd1 = rdd.flatMap(
       data => {
         data match {
           case list: List[_] => list
-          case dat => List(dat)
+          case data => List(data)
         }
       }
     )

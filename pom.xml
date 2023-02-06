@@ -10,11 +10,27 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Scala</module>
+        <module>LeetCode</module>
+        <module>Kafka</module>
+        <module>Spark_core</module>
+        <module>Hadoop</module>
+        <module>spark-kafka</module>
+        <module>JavaEE</module>
+        <module>Arithmetic</module>
+        <module>Flink</module>
+        <module>HTML</module>
+
+
     </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
+
+
+
+
 
 </project>

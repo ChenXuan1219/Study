@@ -15,7 +15,11 @@ object Spark01_Acc {
   def main(args: Array[String]): Unit = {
     val sc: SparkContext = new SparkContext(new SparkConf().setMaster("local[*]").setAppName("WordCount"))
 
-    val rdd: RDD[Int] = sc.makeRDD(List(1, 2, 3, 4))
+    val rdd: RDD[Int] = sc.makeRDD(List(1, 2, 3, 4),4)
+
+    //rdd.groupBy(_)
+
+
 
     val sumAcc: LongAccumulator = sc.longAccumulator("sum")
 

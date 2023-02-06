@@ -1,0 +1,23 @@
+
+b	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ì¼³„
+[
+java:S22593"@A "NullPointerException" could be thrown; "l2" is nullable here.(Õşˆúÿÿÿÿ
+[
+java:S22593"@A "NullPointerException" could be thrown; "l1" is nullable here.(Õşˆúÿÿÿÿ
+_
+java:S2583>"DChange this condition so that it does not always evaluate to "false"(Çƒ’Ãùÿÿÿÿ
+_
+java:S2583„"CChange this condition so that it does not always evaluate to "true"(”ÕŒúÿÿÿÿ
+_
+java:S2583…"CChange this condition so that it does not always evaluate to "true"(êÃúñüÿÿÿÿ
+M
+java:S1135"2Complete the task associated to this TODO comment.(öË…æùÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(…¥Ï§üÿÿÿÿ
+S
+java:S1854P"8Remove this useless assignment to local variable "curr".(ìíÒ¶şÿÿÿÿ
+c	java:S100b"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Ö«
+R
+java:S1854l"7Remove this useless assignment to local variable "pos".(íáË¡ıÿÿÿÿ
+C
+java:S1481l"(Remove this unused "pos" local variable.(íáË¡ıÿÿÿÿ

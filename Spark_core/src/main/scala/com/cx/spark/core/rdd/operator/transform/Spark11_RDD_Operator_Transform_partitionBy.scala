@@ -24,9 +24,9 @@ object Spark11_RDD_Operator_Transform_partitionBy {
      */
 
 
-    val rdd = sc.makeRDD(List(1,2,3,4))
+    val rdd = sc.makeRDD(List(1,2,3,4),2)
 
-    rdd.map((_,1)).partitionBy(new HashPartitioner(2)).collect().foreach(println)
+    rdd.map((_,1)).partitionBy(new HashPartitioner(3)).saveAsTextFile("Spark_core/src/main/scala/com/cx/spark/core/rdd/operator/transform/data")
 
 
     sc.stop()

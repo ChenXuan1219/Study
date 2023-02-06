@@ -1,0 +1,21 @@
+
+v
+java:S1319="`The type of "map" should be an interface such as "Map" rather than the implementation "HashMap".(åò©
+7
+java:S1643+"Use a StringBuilder instead.(Ø‘‡Ùüÿÿÿÿ
+7
+java:S16430"Use a StringBuilder instead.(Ø‘‡Ùüÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ý÷·Ûùÿÿÿÿ
+b	java:S101E"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‘¼ÇŸ
+M
+java:S1135"2Complete the task associated to this TODO comment.(öË…æùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¹ñÒÓþÿÿÿÿ
+J
+java:S2864("4Iterate over the "entrySet" instead of the "keySet".(‡“‹Ú
+h	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–¹ÍÂþÿÿÿÿ
+9
+java:S21198"Save and re-use this "Random".(ãò¹êûÿÿÿÿ
+c	java:S100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åò©
+W
+java:S1126>"AReplace this if-then-else statement by a single return statement.(Ž²ôã
+N	java:S106O"9Replace this use of System.out or System.err by a logger.(ý‰‰ç

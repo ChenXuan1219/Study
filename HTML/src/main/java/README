@@ -1,0 +1,19 @@
+段落与文字标签
+
+标签	语义	说明
+<h1>~<h6>	header	        标题
+<p>	        paragraph	    段落
+<br>	    break	        换行
+<hr>	    horizontal rule	水平线
+<div>	    division	    分割（块元素）
+<span>	    span	        区域（行内元素）
+
+
+文本格式化标签
+标签	语义	说明
+<strong>	strong（加强）	        加粗
+<em>	    emphasized（强调）	    斜体
+<cite>	    cite（引用）	            斜体
+<sup>	    superscripted（上标）	上标
+<sub>	    subscripted（下标）      下标
+

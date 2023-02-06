@@ -22,7 +22,11 @@ object Spark06_RDD_Operator_Transform_groupBy {
      * TODO算子 - filter
      */
 
+    sc.makeRDD(List(1,2,3,4,5,6,7)).groupBy(_ % 2).collect().foreach(println)
+    println("===========")
 
+    sc.makeRDD(List("Hello", "hive", "hbase", "Hadoop"),2).saveAsTextFile("Spark_core/src/main/scala/com/cx/spark/core/rdd/operator/transform/data1")
+    sc.makeRDD(List("Hello", "hive", "hbase", "Hadoop","abc"),2).groupBy(_.charAt(0) != 'a').saveAsTextFile("Spark_core/src/main/scala/com/cx/spark/core/rdd/operator/transform/data2")
 
 
     sc.stop()

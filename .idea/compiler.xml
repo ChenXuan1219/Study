@@ -6,8 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spark_core" />
         <module name="Scala" />
+        <module name="JavaEE" />
+        <module name="Hadoop" />
+        <module name="Kafka" />
+        <module name="Spark_core" />
+        <module name="HTML" />
+        <module name="Flink" />
+        <module name="spark-kafka" />
+        <module name="LeetCode" />
+        <module name="Arithmetic" />
       </profile>
     </annotationProcessing>
   </component>

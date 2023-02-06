@@ -25,8 +25,8 @@ object Spark14_RDD_Operator_Transform_groupByKey {
 
     //https://sparblog.csdn.net/do_yourself_go_on/article/details/76033252
 
-    sc.makeRDD(List(("a",1),("a",2),("a",3),("b",4)),2).saveAsTextFile("output")
-    sc.makeRDD(List(("a",1),("a",2),("a",3),("b",4)),2).groupByKey().saveAsTextFile("outputByKey")
+    sc.makeRDD(List(("a",1),("a",2),("a",3),("b",4)),2).saveAsTextFile("Spark_core/src/main/scala/com/cx/spark/core/rdd/operator/transform/data1")
+    sc.makeRDD(List(("a",1),("a",2),("a",3),("b",4)),2).groupByKey().saveAsTextFile("Spark_core/src/main/scala/com/cx/spark/core/rdd/operator/transform/data2")
 
 
 

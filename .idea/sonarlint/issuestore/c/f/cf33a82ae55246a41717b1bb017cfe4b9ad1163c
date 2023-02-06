@@ -1,0 +1,16 @@
+
+M
+java:S1135"2Complete the task associated to this TODO comment.(öË…æùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(º¼É°
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(©ÞÀ§
+Y
+java:S1128"7Remove this unused import 'org.apache.spark.SparkConf'.(¬Õâøþÿÿÿÿ8Ù×Õæ¨0
+d
+java:S1128"GRemove this unused import 'org.apache.spark.api.java.JavaSparkContext'.(Ý“„…8á×Õæ¨0
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
+C
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX
+E
+java:S1128	"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ

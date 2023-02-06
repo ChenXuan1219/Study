@@ -41,6 +41,19 @@ object Spark08_RDD_Operator_Transform_distinct {
 
     val rdd1: RDD[Int] = rdd.distinct()
 
+    val value: RDD[(Int, Null)] = rdd.map(x => (x, null))
+    value.collect().foreach(print)
+    println()
+    println("=========")
+    val value1: RDD[(Int, Null)] = value.reduceByKey((x, _) => x)
+
+    value1.collect().foreach(print)
+    println()
+    println("=========")
+    val value2: RDD[Int] = value1.map(_._1)
+    value2.collect().foreach(print)
+    println()
+    println("=========")
     rdd1.collect().foreach(println)
 
     sc.stop()

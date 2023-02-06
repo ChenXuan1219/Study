@@ -23,7 +23,7 @@ object Spark02_Acc_WC {
     //累加器
 
     //创建累加器对象
-    val wcAcc: MyAccumulator = new MyAccumulator()
+   /* //val wcAcc: MyAccumulator = new MyAccumulator()
     //向spark进行注册
     sc.register(wcAcc,"wordCountAcc")
 
@@ -33,7 +33,7 @@ object Spark02_Acc_WC {
       }
     )
 
-    println(wcAcc.value)
+    println(wcAcc.value)*/
 
 
   }
@@ -43,7 +43,7 @@ object Spark02_Acc_WC {
    * IN ： 累加器输入的数据类型
    * OUT： 累加器返回的数据类型
    */
-   class MyAccumulator extends AccumulatorV2[String,mutable.Map[String,Long]]{
+  /* class MyAccumulator extends AccumulatorV2[String,mutable.Map[String,Long]]{
 
     private var wcMap = mutable.Map[String,Long]()
 
@@ -66,8 +66,6 @@ object Spark02_Acc_WC {
 
 
     //累加器结果
-    override def value: mutable.Map[String, Long] = {
 
-    }
-  }
+  }*/
 }

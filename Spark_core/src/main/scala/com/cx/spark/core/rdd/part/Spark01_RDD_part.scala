@@ -21,7 +21,7 @@ object Spark01_RDD_part{
     ),3)
     val partRDD: RDD[(String, String)] = rdd.partitionBy(new MyPartitioner)
 
-    partRDD.saveAsTextFile("output")
+    partRDD.collect().foreach(println)
 
     sc.stop()
   }
