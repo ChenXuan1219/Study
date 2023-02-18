@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+    <!-- 数据库配置   -->
+    <properties resource="db_config.properties"></properties>
+
+<!--    com.ssm.po包下的所有POJO别名为 首字母小写名-->
+    <typeAliases>
+
+        <package name="com.ssm.po"/>
+
+    </typeAliases>
+
+
+<!--    -->
+    <typeHandlers>
+
+    </typeHandlers>
+    <!--设置连接数据库的环境-->
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--引入映射文件-->
+    <mappers>
+        <mapper resource="mappers/UserMapper.xml"></mapper>
+    </mappers>
+</configuration>

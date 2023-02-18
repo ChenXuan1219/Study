@@ -19,8 +19,6 @@ object Spark01_Acc {
 
     //rdd.groupBy(_)
 
-
-
     val sumAcc: LongAccumulator = sc.longAccumulator("sum")
 
     rdd.foreach(num => {sumAcc.add(num)})

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="华东集群Mysql" uuid="8ffcbfef-2845-446d-a13f-86e206eb67ee">
+    <data-source source="LOCAL" name="Tencent001_study" uuid="632fd9a3-de7b-4539-bb79-55b417732992">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://10.120.42.76:3305</jdbc-url>
+      <jdbc-url>jdbc:mysql://150.158.173.202:3306/study</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

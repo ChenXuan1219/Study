@@ -5,5 +5,8 @@
     <file url="file://$PROJECT_DIR$/Flink/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JavaEE/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JavaEE/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaWeb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaWeb/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot/src/main/java" charset="UTF-8" />
   </component>
 </project>

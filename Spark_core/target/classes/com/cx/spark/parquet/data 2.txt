@@ -1,2 +1,2 @@
-distinct_id,user_tag_sodata_test_1013_002
-byl_001,byl_001
+distinct_id,user_tag
+chenxuan,user_tag_001

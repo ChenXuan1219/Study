@@ -6,17 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Java_Web" />
         <module name="Scala" />
-        <module name="JavaEE" />
         <module name="Hadoop" />
         <module name="Kafka" />
-        <module name="Spark_core" />
         <module name="HTML" />
         <module name="Flink" />
+        <module name="Spring5" />
+        <module name="JavaEE" />
+        <module name="Spark_core" />
         <module name="spark-kafka" />
+        <module name="Mybatis" />
         <module name="LeetCode" />
         <module name="Arithmetic" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JAVA_WEB" target="1.8" />
+      <module name="JAVAWEB" target="1.8" />
+      <module name="JavaWeb" target="1.8" />
+      <module name="Spring" target="1.8" />
+      <module name="SpringBoot" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBoot" options="-parameters" />
+    </option>
   </component>
 </project>

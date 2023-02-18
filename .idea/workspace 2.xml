@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97cc2287-e91d-427a-a805-49d44806b026" name="变更" comment="1" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Worksheet" />
+        <option value="Package Object" />
+        <option value="Scala Object" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2ACBmirNHpog6ayOYNaKe54KJL5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/chenxuan/Desktop/cx/IDEA_ Ultimate/Study",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Spark_core/src/main/data" />
+      <recent name="$PROJECT_DIR$/Flink/src/main/scala/com/flink/sodata/parquet" />
+      <recent name="$PROJECT_DIR$/Flink/src/main/resources" />
+      <recent name="$PROJECT_DIR$/Spark_core/src/main/scala/com/cx/spark/SQL_Import" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Java/src/main/java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.flink.sodata" />
+      <recent name="com.cx.spark.sql" />
+      <recent name="producer" />
+      <recent name="com.cx.kafka.producer" />
+      <recent name="com.cx.spark.streaming" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Sort">
+    <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.Pet_Test.Cat" />
+      <module name="JavaEE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.Pet_Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fruit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.Pet_Test.Fruit" />
+      <module name="JavaEE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.Pet_Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sort.Sort" />
+      <module name="Arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="flatMap" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.cx.spark.core.wc.temporary.flatMap" />
+      <module name="Spark_core" />
+      <target name="root@10.120.173.20:22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cx.spark.core.wc.temporary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.Pet_Test.main" />
+      <module name="JavaEE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.Pet_Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Deploy to Host" type="DEPLOY_HOST_RUN_CONFIGURATION" factoryName="Deploy to Host" singleton="false">
+      <option name="accountModel" />
+      <option name="accountModels" />
+      <option name="address" />
+      <option name="afterCommand" value="" />
+      <option name="alreadyReset" value="true" />
+      <option name="autoOpen" value="false" />
+      <option name="beforeCommand" value="" />
+      <option name="defaultTabIdx" value="0" />
+      <option name="ecsInstance">
+        <EcsInstance>
+          <option name="OSType" />
+          <option name="instanceId" />
+          <option name="instanceName" />
+          <option name="netType" />
+          <option name="privateIps" />
+          <option name="publicIps" />
+          <option name="regionId" />
+          <option name="tags" />
+        </EcsInstance>
+      </option>
+      <option name="ecsInstances" />
+      <option name="hostIds">
+        <list>
+          <option value="1" />
+        </list>
+      </option>
+      <option name="hostTagId" value="0" />
+      <option name="location" value="/home/pinkman/jar" />
+      <option name="pathOrUrl" value="$PROJECT_DIR$/target/Study-1.0-SNAPSHOT.pom" />
+      <option name="tagId" value="0" />
+      <option name="terminalCommand" />
+      <option name="type" value="HOST" />
+      <option name="uploadType" value="FILE" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CustomProducerCallback [package]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Test" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="华东集群Spark" type="SparkSubmitConfigurationType" factoryName="SshSparkJobConfigurationType" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="archives">
+        <list />
+      </option>
+      <option name="artifactArgs" value="" />
+      <option name="artifactPath">
+        <FilePath>
+          <option name="path" value="" />
+          <option name="type" value="CUSTOM" />
+        </FilePath>
+      </option>
+      <option name="beforeShellScript" value="" />
+      <option name="className" value="" />
+      <option name="clusterManager" value="YARN" />
+      <option name="conf" value="" />
+      <option name="deployMode" value="CLUSTER" />
+      <option name="driverClassPath">
+        <list />
+      </option>
+      <option name="driverCores" value="" />
+      <option name="driverJavaOptions" value="" />
+      <option name="driverLibraryPath">
+        <list />
+      </option>
+      <option name="driverMemory" value="" />
+      <option name="envParams" value="" />
+      <option name="excludePackages" value="" />
+      <option name="executorCores" value="" />
+      <option name="executorMemory" value="" />
+      <option name="files">
+        <list />
+      </option>
+      <option name="interactive" value="false" />
+      <option name="jars">
+        <list />
+      </option>
+      <option name="keytab">
+        <FilePath>
+          <option name="path" value="" />
+          <option name="type" value="CUSTOM" />
+        </FilePath>
+      </option>
+      <option name="master" value="local" />
+      <option name="numExecutors" value="" />
+      <option name="packages" value="" />
+      <option name="principal" value="" />
+      <option name="projectPathOnTarget" />
+      <option name="propertiesFile">
+        <FilePath>
+          <option name="path" value="" />
+          <option name="type" value="CUSTOM" />
+        </FilePath>
+      </option>
+      <option name="proxyUser" value="" />
+      <option name="pyFiles">
+        <list />
+      </option>
+      <option name="queue" value="" />
+      <option name="repositories" value="" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="shellExecutor" value="/bin/bash" />
+      <option name="sparkHome" value="${SENSORS_PERSONAS_HOME}/dlc/spark3/spark-3.1.2-bin-hadoop3.2" />
+      <option name="sparkMonitoringDriverId" value="" />
+      <option name="sshConfigId" value="cc1a4151-af6a-48b3-ac05-7a4cd6e5e4ce" />
+      <option name="supervise" value="false" />
+      <option name="targetDirectory">
+        <FilePath>
+          <option name="path" value="" />
+          <option name="type" value="SERVER" />
+        </FilePath>
+      </option>
+      <option name="totalExecutorCores" value="" />
+      <option name="verbose" value="false" />
+      <option name="workDirectoryPath">
+        <FilePath>
+          <option name="path" value="" />
+          <option name="type" value="SERVER" />
+        </FilePath>
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="SparkSubmitConfigurationType" factoryName="SshSparkJobConfigurationType" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="archives">
+        <list />
+      </option>
+      <option name="artifactArgs" value="" />
+      <option name="artifactPath">
+        <FilePath>
+          <option name="path" value="" />
+          <option name="type" value="CUSTOM" />
+        </FilePath>
+      </option>
+      <option name="beforeShellScript" value="" />
+      <option name="className" value="" />
+      <option name="clusterManager" value="LOCAL" />
+      <option name="conf" value="" />
+      <option name="deployMode" value="CLIENT" />
+      <option name="driverClassPath">
+        <list />
+      </option>
+      <option name="driverCores" value="" />
+      <option name="driverJavaOptions" value="" />
+      <option name="driverLibraryPath">
+        <list />
+      </option>
+      <option name="driverMemory" value="" />
+      <option name="envParams" value="" />
+      <option name="excludePackages" value="" />
+      <option name="executorCores" value="" />
+      <option name="executorMemory" value="" />
+      <option name="files">
+        <list />
+      </option>
+      <option name="interactive" value="false" />
+      <option name="jars">
+        <list />
+      </option>
+      <option name="keytab">
+        <FilePath>
+          <option name="path" value="" />
+          <option name="type" value="CUSTOM" />
+        </FilePath>
+      </option>
+      <option name="master" value="local" />
+      <option name="numExecutors" value="" />
+      <option name="packages" value="" />
+      <option name="principal" value="" />
+      <option name="projectPathOnTarget" />
+      <option name="propertiesFile">
+        <FilePath>
+          <option name="path" value="" />
+          <option name="type" value="CUSTOM" />
+        </FilePath>
+      </option>
+      <option name="proxyUser" value="" />
+      <option name="pyFiles">
+        <list />
+      </option>
+      <option name="queue" value="" />
+      <option name="repositories" value="" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="shellExecutor" value="/bin/bash" />
+      <option name="sparkHome" value="" />
+      <option name="sparkMonitoringDriverId" value="" />
+      <option name="sshConfigId" value="" />
+      <option name="supervise" value="false" />
+      <option name="targetDirectory">
+        <FilePath>
+          <option name="path" value="" />
+          <option name="type" value="SERVER" />
+        </FilePath>
+      </option>
+      <option name="totalExecutorCores" value="" />
+      <option name="verbose" value="false" />
+      <option name="workDirectoryPath">
+        <FilePath>
+          <option name="path" value="" />
+          <option name="type" value="SERVER" />
+        </FilePath>
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Sort.Bubbling_Sort" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sort" />
+      <option name="MAIN_CLASS_NAME" value="com.sort.Sort" />
+      <option name="METHOD_NAME" value="Bubbling_Sort" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.flatMap" />
+      <item itemvalue="Application.Sort" />
+      <item itemvalue="Application.main" />
+      <item itemvalue="Application.Cat" />
+      <item itemvalue="Application.Fruit" />
+      <item itemvalue="Maven.CustomProducerCallback [package]" />
+      <item itemvalue="Spark Submit.华东集群Spark" />
+      <item itemvalue="Spark Submit.Unnamed" />
+      <item itemvalue="TestNG.Sort.Bubbling_Sort" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Sort" />
+        <item itemvalue="TestNG.Sort.Bubbling_Sort" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Cat" />
+        <item itemvalue="Application.Fruit" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="97cc2287-e91d-427a-a805-49d44806b026" name="变更" comment="" />
+      <created>1654503850587</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654503850587</updated>
+      <workItem from="1657702257359" duration="930000" />
+      <workItem from="1662202480663" duration="4890000" />
+      <workItem from="1662260013006" duration="666000" />
+      <workItem from="1662290009149" duration="193000" />
+      <workItem from="1662383237904" duration="1276000" />
+      <workItem from="1662463215525" duration="10159000" />
+      <workItem from="1662603212211" duration="19289000" />
+      <workItem from="1663037009508" duration="2987000" />
+      <workItem from="1663074398158" duration="10883000" />
+      <workItem from="1663743382528" duration="2157000" />
+      <workItem from="1663837905842" duration="540000" />
+      <workItem from="1663839044385" duration="6421000" />
+      <workItem from="1664092715027" duration="2287000" />
+      <workItem from="1664182110284" duration="38495000" />
+      <workItem from="1664713134058" duration="1745000" />
+      <workItem from="1664907405848" duration="136000" />
+      <workItem from="1664946738180" duration="1489000" />
+      <workItem from="1665221886863" duration="15590000" />
+      <workItem from="1665402272242" duration="7728000" />
+      <workItem from="1665629048362" duration="1968000" />
+      <workItem from="1665648222319" duration="1354000" />
+      <workItem from="1665652837823" duration="1000" />
+      <workItem from="1665657199779" duration="2021000" />
+      <workItem from="1665889373176" duration="3847000" />
+      <workItem from="1667303166238" duration="1194000" />
+      <workItem from="1669181295856" duration="7522000" />
+      <workItem from="1669887878547" duration="1070000" />
+      <workItem from="1673347927574" duration="9090000" />
+      <workItem from="1673595098765" duration="9912000" />
+      <workItem from="1673949672095" duration="6525000" />
+      <workItem from="1674626311946" duration="1359000" />
+      <workItem from="1674805594476" duration="2155000" />
+      <workItem from="1674973814429" duration="12154000" />
+      <workItem from="1675154296328" duration="13321000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1654503975712</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654503975712</updated>
+    </task>
+    <task id="LOCAL-00002" summary="第一次提交">
+      <created>1654504945956</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654504945956</updated>
+    </task>
+    <task id="LOCAL-00003" summary="第一次提交">
+      <created>1654505240900</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654505240900</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1">
+      <created>1654506013346</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654506013346</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1">
+      <created>1654514636344</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654514636345</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1">
+      <created>1654514671292</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654514671292</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1">
+      <created>1654515261804</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654515261804</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1">
+      <created>1654770251908</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654770251908</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1">
+      <created>1654770285558</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654770285558</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1">
+      <created>1654840971250</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1654840971250</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1">
+      <created>1654856570526</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1654856570526</updated>
+    </task>
+    <task id="LOCAL-00012" summary="1">
+      <created>1656915054299</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1656915054299</updated>
+    </task>
+    <task id="LOCAL-00013" summary="1">
+      <created>1656937622717</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1656937622718</updated>
+    </task>
+    <task id="LOCAL-00014" summary="1">
+      <created>1657118184492</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657118184492</updated>
+    </task>
+    <task id="LOCAL-00015" summary="1">
+      <created>1657159354430</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1657159354431</updated>
+    </task>
+    <task id="LOCAL-00016" summary="1">
+      <created>1657191474178</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1657191474178</updated>
+    </task>
+    <task id="LOCAL-00017" summary="1">
+      <created>1657684017581</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1657684017582</updated>
+    </task>
+    <task id="LOCAL-00018" summary="1">
+      <created>1658111836544</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1658111836544</updated>
+    </task>
+    <task id="LOCAL-00019" summary="1">
+      <created>1675664891619</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1675664891619</updated>
+    </task>
+    <task id="LOCAL-00020" summary="1">
+      <created>1675664914714</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1675664914714</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.configurationType" implementationName="DEPLOY_HOST_RUN_CONFIGURATION" />
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-common" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.spark:spark-core_2.12" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kafka:kafka-clients" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="第一次提交" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

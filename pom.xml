@@ -19,7 +19,9 @@
         <module>Arithmetic</module>
         <module>Flink</module>
         <module>HTML</module>
-
+        <module>Java_Web</module>
+        <module>Spring5</module>
+        <module>Mybatis</module>
 
     </modules>
 

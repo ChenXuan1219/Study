@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+
+    <!--    setter方式注入属性-->
+    <bean id="Setter" class="com.spring.Test_02.SetterOrConstructorArg">
+        <property name="name" value="Setter"></property>
+        <property name="age" value="24"></property>
+        <property name="list">
+            <list>
+                <value type="java.lang.String">Setter</value>
+            </list>
+        </property>
+    </bean>
+
+
+    <!--    构造方法方式注入属性-->
+    <bean id="ConstructorArg" class="com.spring.Test_02.SetterOrConstructorArg">
+        <constructor-arg index="0" value="ConstructorArg"></constructor-arg>
+        <constructor-arg index="1" value="24"></constructor-arg>
+        <constructor-arg index="2">
+            <list>
+                <value type="java.lang.String">ConstructorArg</value>
+            </list>
+        </constructor-arg>
+    </bean>
+</beans>
